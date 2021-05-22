@@ -1,0 +1,291 @@
+
+
+/*ESTIL PER DEFECTE (*)*/
+*{
+
+    
+    padding-top: 2px;
+    padding-bottom: 1px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*PARTS DEL HTML*/
+header{
+    display: inline-flex;
+    justify-content:center;
+    background-color: white;  
+    width:100%;
+
+}
+
+footer{
+    padding-top: 2px;
+    display: inline-block;
+    background-color: grey;
+    text-align: center;
+    width:100%;    
+    position: fixed;
+     left: 0;
+    bottom: 0;
+     width: 100%;
+     height: 10%;
+     padding:1em;        
+ 
+
+}
+.wrapper{
+    text-align: center;
+}
+nav#menu {
+    display: flex;
+    flex-flow: row;
+}
+
+nav#menu a {
+    padding: 1em;
+    background: gray;
+    flex: 1 1 auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav#menu :hover{
+    background-color: mediumaquamarine;
+    transition-delay: 0.1s;
+}
+
+/*ESTILS DE LLETRA */
+
+h1{
+    background-color:white;
+    display: inline-flex;       
+}
+
+
+p{
+    text-align: center;
+    font-size: 15px;
+    
+    
+}
+#tornar{
+    padding:1em;
+    width:100%;
+    display: inline-flex;
+    justify-content: center;
+    background-color:white;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+/*IMATGES*/
+
+img{
+    width: 20%;
+    height: 20%;
+
+}
+
+table th img {
+    width: 33%;
+}
+
+#construccion{
+
+    width:25%;
+    height: 25%;
+    padding-left: 40%;
+
+}
+
+#bob{
+
+    width: 300px;
+    height: 300px;
+}
+
+/*ADMIN*/
+
+.icon {
+    display: inline-block;
+    width: 25px !important;
+    height: 25px !important;
+    background-size: contain !important;
+    padding: 0 !important;
+    cursor: pointer;
+}
+
+
+.edit {
+    background: url('../img/edit.png') no-repeat center center;
+}
+
+.delete {
+    background: url('../img/delete.png') no-repeat center center;
+}
+
+.adduser {
+    background: url('../img/adduser.png') no-repeat center center;
+}
+
+.backup {
+    background: url('../img/backup.png') no-repeat center center;
+}
+
+.logicon {
+    background: url('../img/log.png') no-repeat center center;
+}
+
+
+/*ESTILS TABLES*/
+/* table {
+    width: 30%;
+    height: 300px;
+    color: lightgrey;
+    margin-left:2%;
+}
+
+#tabla1 {
+    float: left;
+}
+
+#tabla2 {
+    float: left;
+}
+#tabla3{
+    float:left;
+}
+
+
+
+caption {
+    font-style: "helvetica";
+    font-size: 30px;
+    color: #00171F;
+}
+
+table tr,
+th,
+td {
+    border: 3px solid black;
+    width: 0%;
+    
+    
+}
+
+
+
+table td:hover {
+    background-color: #00171F;
+} */
+
+/*Formulari*/
+
+
+form{
+    
+    background-color: mediumaquamarine;
+    color:black;
+    border:1px black solid;
+    text-align: center;
+    padding:1em;
+    
+
+
+    
+
+}
+
+form ul{
+    
+    color:black;
+    background-color: mediumaquamarine;
+    
+
+}
+
+form ul li{
+    
+    color:black;
+    list-style: none;
+    background-color: mediumaquamarine;
+    padding: 0.5rem;
+
+
+
+
+}
+
+
+label{
+    background-color: lightskyblue;
+    color:black;
+    border:1px black solid;
+    padding: 10px;
+    display:inline-block;
+    width:100px;
+    
+    
+}
+select{
+    background-color: white;
+    color:black;
+    border:1px black solid;
+    padding: 10px;
+    
+}
+
+input{
+    background-color:white;
+    color:black;
+    border:1px black solid;
+    padding:10px;
+
+}
+
+
+
+#data {
+    background: #fff;
+    margin: 1em;
+    text-align: center;
+}
+
+#data ul {
+    color: red;
+    padding: 2em 1em; 
+    
+}
+
+#data ul > li {
+    margin-left: 1em;
+    list-style: none;
+    background-color: lightgreen;
+    
+}
+
+.email-images {
+    display: flex;
+    justify-content: center;
+
+}
+
+.email-images img {
+    width: 50px;
+    height: 50px;
+}
+
+.errors {
+    color: red;
+    text-align: center;
+}
+
+
+
+

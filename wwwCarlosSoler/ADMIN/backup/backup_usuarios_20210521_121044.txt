@@ -1,0 +1,3 @@
+id::nombre::apellidos::email::pass::type::date
+11::admin::admin::admin::$2y$10$C7CG5LT4Cji1A6iJuzrnv.dUvdTwWKSeMLmj2ojx/.nGRjMeocv5W::premium::2020-12-15 18:36:59
+24::carlos::s::carlos@gmail.com::$2y$10$ElwYfgxfYnrgZwWnztthPO/REXpHxpFu65yV0oG69DG3Xnc.ltdJC::normal::2021-05-19 15:01:22

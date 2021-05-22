@@ -1,0 +1,4 @@
+id::nombre::apellidos::email::pass::type::date::profileimg::isAdmin
+11::admin::admin::admin@admin.com::$2y$10$C7CG5LT4Cji1A6iJuzrnv.dUvdTwWKSeMLmj2ojx/.nGRjMeocv5W::premium::2020-12-15 18:36:59::default_profile.png::1
+24::carlos::s::carlos@gmail.com::$2y$10$ElwYfgxfYnrgZwWnztthPO/REXpHxpFu65yV0oG69DG3Xnc.ltdJC::premium::2021-05-21 13:38:28::default_profile.png::1
+25::pepe::pepe::pepe123@gmail.com::$2y$10$gudUZmiVUp78cVuNCMw2Yu1HFLPjA01/SxVnKj/Ggk3KGZ8b3gFWi::normal::2021-05-21 13:38:17::default_profile.png::0
